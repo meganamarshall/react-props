@@ -5,14 +5,20 @@ exports[`Dog component matches the snapshot 1`] = `
   <dt>
     Name:
   </dt>
-  <dd />
+  <dd>
+    hello
+  </dd>
   <dt>
     Age:
   </dt>
-  <dd />
+  <dd>
+    4
+  </dd>
   <dt>
     Weight:
   </dt>
-  <dd />
+  <dd>
+    23 lbs
+  </dd>
 </dl>
 `;
