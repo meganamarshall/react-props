@@ -8,4 +8,12 @@ describe('ColorPicker component', () => {
     const wrapper = shallow(<ColorPicker />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('handles the red button', () => {
+    console.log = jest.fn();
+    const wrapper = shallow(<ColorPicker />);
+
+    wrapper.find('button').at(0).simulate('click');
+    expect(console.log).toHaveBeenCalledWith('red');
+  });
 });
