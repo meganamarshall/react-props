@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component matches the snapshot 1`] = `
+<header>
+  <h1>
+    my dog
+  </h1>
+  <img
+    src="https://assets.caboosecms.com/media/236656_002-beagle_thumb.png?1512229005"
+  />
+</header>
+`;

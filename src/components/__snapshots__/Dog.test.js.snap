@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dog component matches the snapshot 1`] = `
+<dl>
+  <dt>
+    Name:
+  </dt>
+  <dd>
+    hello
+  </dd>
+  <dt>
+    Age:
+  </dt>
+  <dd>
+    4
+  </dd>
+  <dt>
+    Weight:
+  </dt>
+  <dd>
+    23 lbs
+  </dd>
+</dl>
+`;

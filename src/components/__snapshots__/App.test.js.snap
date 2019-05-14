@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches the app snapshot 1`] = `
+<Fragment>
+  <Header />
+  <Dog
+    age={8}
+    name="Bear"
+    weight="40 lbs"
+  />
+</Fragment>
+`;
