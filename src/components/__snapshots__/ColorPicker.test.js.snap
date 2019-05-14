@@ -1,18 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ColorPicker component matches the colorpicker snapshot 1`] = `
-<section>
+<section
+  className="ColorPicker"
+>
   <button
+    className="redd"
     onClick={[Function]}
   >
     Red
   </button>
   <button
+    className="green"
     onClick={[Function]}
   >
     Green
   </button>
   <button
+    className="blue"
     onClick={[Function]}
   >
     Blue

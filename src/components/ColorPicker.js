@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './ColorPicker.css';
 
 export default function ColorPicker() {
   const redHandler = () => {
@@ -14,10 +15,10 @@ export default function ColorPicker() {
   };
 
   return (
-    <section>
-      <button onClick={redHandler}>Red</button>
-      <button onClick={greenHandler}>Green</button>  
-      <button onClick={blueHandler}>Blue</button>
+    <section className={styles.ColorPicker}>
+      <button onClick={redHandler} className={styles.red}>Red</button>
+      <button onClick={greenHandler} className={styles.green}>Green</button>  
+      <button onClick={blueHandler} className={styles.blue}>Blue</button>
     </section>
   );
 }
