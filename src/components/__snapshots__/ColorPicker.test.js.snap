@@ -5,7 +5,7 @@ exports[`ColorPicker component matches the colorpicker snapshot 1`] = `
   className="ColorPicker"
 >
   <button
-    className="redd"
+    className="red"
     onClick={[Function]}
   >
     Red
